@@ -1,13 +1,17 @@
 import './index.css'
+
 import { Header } from "./components"
-import { Home } from "./pages"
+import { AboutMe, Home } from "./pages"
 
 function App() {
 
   return (
-    <div className="w-full relative">
+    <div className="w-full  relative max-h-">
 	    <Header />
-      <Home />
+        <Home />
+      <div className='px-5 py-10 max-w-4xl mx-auto'>
+        <AboutMe />
+      </div>
     </div>
   )
 }
