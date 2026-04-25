@@ -1,6 +1,8 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import myselfImage from "../../assets/myself-pixelart.svg?url";
 
 import { skills } from "../../data/skills";
+import { faArrowAltCircleDown } from "@fortawesome/free-solid-svg-icons";
 export default function Home() {
     return (
         <section className="h-screen relative ">
@@ -26,6 +28,13 @@ export default function Home() {
                     <img  src={myselfImage} alt="myself" className="w-60 z-20 hidden" />
                </div>
             </div>
+            
+            <i className="animate-bounce absolute bottom-10 left-1/2 transform -translate-x-1/2 text-2xl rounded-full ">
+                <a href="#aboutme" className=" duration-300 text-pink-primary">
+                    <FontAwesomeIcon icon={faArrowAltCircleDown} size="xl" />
+                </a>
+            </i>
+
         </section>
     )
 }
