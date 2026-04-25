@@ -8,7 +8,7 @@ export default function AboutMe() {
         <section id="aboutme" className="border bg-black-primary/50 p-5 rounded-lg">
             <div className="flex gap-4 items-center">
                 <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-                    <img src="./src/assets/images/profile-picture.png" alt="Barbara Hellen - Profile Picture" className="h-full rounded-full border" />
+                    <img src="https://media.licdn.com/dms/image/v2/D4D03AQH7CCShRDFxmw/profile-displayphoto-crop_800_800/B4DZy1Ks4CHIAI-/0/1772566008991?e=1778716800&v=beta&t=6xPF2jSTMAv3g7hcU7nxwHK3cQ7Ownh7sKDJiLCZNPw" alt="Barbara Hellen - Profile Picture" className="h-full rounded-full border" />
                 </div>
                 <div className="flex flex-col justify-center-center">
                     <p className="text-xl font-bold">About Me</p>
