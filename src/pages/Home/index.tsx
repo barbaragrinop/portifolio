@@ -29,7 +29,7 @@ export default function Home() {
                </div>
             </div>
             
-            <i className="animate-bounce absolute bottom-10 left-1/2 transform -translate-x-1/2 text-2xl rounded-full ">
+            <i className="animate-bounce absolute bottom-20 left-1/2 transform -translate-x-1/2 text-2xl rounded-full ">
                 <a href="#aboutme" className=" duration-300 text-pink-primary">
                     <FontAwesomeIcon icon={faArrowAltCircleDown} size="xl" />
                 </a>
