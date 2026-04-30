@@ -43,7 +43,7 @@ export default function Header() {
 
   return (
     <div className="py-2 fixed  h-16 lg:h-20  shadow-2xs z-50 top-0 left-0 bg-grey-primary px-5 flex flex-row w-full items-center justify-between" >
-      <strong className="font-lato text-grey-tertiary text-2xl ">bhellen</strong>
+      <strong className="font-lato text-grey-primary text-xl bg-pink-primary p-2">bhellen</strong>
       <div className="hidden w-100 text-black-primary font-light gap-7 font-roboto-condensed
        text-sm items-center">
         {menuItens.map((item, index) => (
