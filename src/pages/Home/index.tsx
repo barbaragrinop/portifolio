@@ -12,7 +12,7 @@ export default function Home() {
                      <div className=" relative z-20">
                         <p className="font-open-sans text-1xl text-[#676565bd] font-bold">I'm Barbara </p>
                         <p className="font-open-sans text-3xl text-pink-primary font-bold">Frontend Developer</p>
-                        <p className="font-open-sans font-bold text-[#676565bd] text-1xl">with back-end experience </p>
+                        <p className="font-open-sans font-bold text-[#676565bd] text-1xl">with backend experience </p>
                     </div>
                     <div className="gap-20 z-30 hidden">
                         <div className="grid grid-cols-12 pl-10 gap-y-4 gap-x-2 mt-10">
