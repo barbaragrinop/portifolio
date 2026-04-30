@@ -7,10 +7,10 @@ export default function Home() {
     return (
         <section className="h-screen relative ">
             {/* <div className="absolute top-0 right-0 w-108 h-80 rounded-b-full bg-grey-primary"></div> */}
-            <div className="flex px-5 pt-28 justify-evenly gap-28 ">
-               <div className="flex flex-col gap-10">
+            <div className="flex px-5 pt-28 justify-evenly text-center ">
+               <div className="flex flex-col gap-10  w-full">
                      <div className=" relative z-20">
-                        <p className="font-open-sans text-2xl text-[#676565bd] font-bold">I'm Barbara </p>
+                        <p className="font-open-sans font-light text-2xl text-grey-primary ">welcome, I'm </p>
                         <p className="font-open-sans text-5xl text-pink-primary font-bold">Frontend Developer</p>
                     </div>
                     <div className="gap-20 z-30 hidden">
