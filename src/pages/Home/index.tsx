@@ -6,13 +6,13 @@ import { faArrowAltCircleDown } from "@fortawesome/free-solid-svg-icons";
 export default function Home() {
     return (
         <section className="h-screen relative ">
-            <div className="absolute top-0 right-0 w-108 h-80 rounded-b-full bg-grey-primary"></div>
+            {/* <div className="absolute top-0 right-0 w-108 h-80 rounded-b-full bg-grey-primary"></div> */}
             <div className="flex px-5 pt-28 justify-evenly gap-28 ">
                <div className="flex flex-col gap-10">
                      <div className=" relative z-20">
-                        <p className="font-open-sans text-1xl text-[#676565bd] font-bold">I'm Barbara </p>
-                        <p className="font-open-sans text-3xl text-pink-primary font-bold">Frontend Developer</p>
-                        <p className="font-open-sans font-bold text-[#676565bd] text-1xl">with backend experience </p>
+                        <p className="font-open-sans text-2xl text-[#676565bd] font-bold">I'm Barbara </p>
+                        <p className="font-open-sans text-5xl text-pink-primary font-bold">Frontend Developer</p>
+                        <p className="font-open-sans text-2xl font-bold text-[#676565bd] text-1xl">with backend experience </p>
                     </div>
                     <div className="gap-20 z-30 hidden">
                         <div className="grid grid-cols-12 pl-10 gap-y-4 gap-x-2 mt-10">
