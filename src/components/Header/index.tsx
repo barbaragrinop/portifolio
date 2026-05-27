@@ -53,7 +53,7 @@ export default function Header() {
         ))}
       </div>
       {/* menu mobile */}
-      <div className={`fixed top-10 left-0 w-full bg-grey-primary flex flex-col gap-4 p-5 transition-all ${isMenuOpen ? "block" : "hidden"}`}>
+      <div className={`fixed top-16 left-0 w-full bg-grey-primary flex flex-col gap-4 p-5 transition-all ${isMenuOpen ? "block" : "hidden"}`}>
         {menuItens.map((item, index) => (
           <div key={index}>
             <a href={item.link} onClick={closeMenu} className="text-black-primary font-light text-sm">

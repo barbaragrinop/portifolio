@@ -3,14 +3,15 @@ import myselfImage from "../../assets/myself-pixelart.svg?url";
 
 import { skills } from "../../data/skills";
 import { faArrowAltCircleDown } from "@fortawesome/free-solid-svg-icons";
+
 export default function Home() {
     return (
-        <section className="h-screen relative ">
+        <section className="h-screen relative mt-16 lg:mt-20">
             {/* <div className="absolute top-0 right-0 w-108 h-80 rounded-b-full bg-grey-primary"></div> */}
             <div className="flex px-5 pt-28 justify-evenly text-center ">
                <div className="flex flex-col gap-10  w-full">
-                     <div className=" relative z-20">
-                        <p className="font-open-sans font-light text-2xl text-grey-primary ">welcome, I'm </p>
+                     <div className=" relative space-y-3 z-20">
+                        <p className="font-open-sans font-light text-lg text-grey-primary ">welcome, I'm Barbara </p>
                         <p className="font-open-sans text-5xl text-pink-primary font-bold">Frontend Developer</p>
                     </div>
                     <div className="gap-20 z-30 hidden">

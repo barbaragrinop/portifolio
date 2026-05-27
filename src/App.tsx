@@ -7,8 +7,8 @@ function App() {
 
   return (
     <div className="w-full  relative max-h-">
-	    <Header />
-        <Home />
+      <Header />
+      <Home />
       <div className='px-5 py-10 max-w-4xl mx-auto'>
         <AboutMe />
       </div>
