@@ -6,12 +6,10 @@ import { AboutMe, Home } from "./pages"
 function App() {
 
   return (
-    <div className="w-full  relative max-h-">
+    <div className="w-full relative ">
       <Header />
       <Home />
-      <div className='px-5 py-10 max-w-4xl mx-auto'>
-        <AboutMe />
-      </div>
+      <AboutMe />
     </div>
   )
 }
