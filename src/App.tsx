@@ -1,7 +1,7 @@
 import './index.css'
 
 import { Header } from "./components"
-import { AboutMe, Home } from "./pages"
+import { AboutMe, Home, Works } from "./pages"
 
 function App() {
 
@@ -10,6 +10,7 @@ function App() {
       <Header />
       <Home />
       <AboutMe />
+      <Works />
     </div>
   )
 }

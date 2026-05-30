@@ -1,7 +1,8 @@
+import Logo from "../Logo";
 import classNames from "classnames";
+
 import { useState, useEffect } from "react";
 import { Container } from "../Container";
-import { Logo } from "../Logo";
 
 type MenuItem = {
   name: string;
@@ -11,7 +12,7 @@ type MenuItem = {
 const MENU_ITEMS: MenuItem[] = [
   {
     name: "home",
-    link: "#about"
+    link: "#home"
   },
   {
     name: "about me",
