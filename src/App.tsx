@@ -1,7 +1,7 @@
 import './index.css'
 
 import { Header } from "./components"
-import { AboutMe, Home, Works } from "./pages"
+import { AboutMe, Home, Projects, Works } from "./pages"
 
 function App() {
 
@@ -11,6 +11,7 @@ function App() {
       <Home />
       <AboutMe />
       <Works />
+      <Projects />
     </div>
   )
 }
