@@ -14,7 +14,7 @@ export const EXPERIENCES: WorkExperience[] = [
       "Desenvolvimento de aplicações com ASP.NET MVC integrado a stacks front-end modernas.",
       "Participação ativa em decisões de arquitetura e código, colaborando diretamente com times de produto e design.",
     ],
-    tags: ["React", "ASP.NET MVC", "Styled-components", "TypeScript", "Figma", "HTML", "CSS", "Kendo UI", "Scrum", "SASS", "Story Book", "WebSocket", "ESLint", "Usability", "Kanban", "C#", "JIRA", "SQL Server", ".NET Framework", "Jenkins", "JavaScript", "Responsiveness", "MobX", "WCAG", "Azure DevOps", "Telerik", "JQuery"],
+    tags: ["React", "ASP.NET MVC", "Styled-components", "TypeScript", "Figma", "HTML", "CSS", "Kendo UI", "Scrum", "SASS", "Story Book", "WebSocket", "ESLint", "Usability", "Kanban", "C#", "JIRA", "SQL Server", ".NET Framework", "Jenkins", "JavaScript", "Responsiveness", "MobX", "WCAG", "Azure DevOps", "Telerik", "JQuery", "Redux"],
   },
   {
     id: "hexagon-pleno",
@@ -31,7 +31,7 @@ export const EXPERIENCES: WorkExperience[] = [
       "Participação no planejamento de arquitetura em squads ágeis com Scrum e Kanban.",
     ],
     tags: [
-      "Next.js", "React", "TypeScript", "TailwindCSS", "Cypress", "Jest", "Storybook", "Azure DevOps", "Azure DevOps Server", "CSS", "Web Design Responsivo", "Scrum", "SASS", "GitFlow", "Git BASH", "Desenvolvimento de front-end", "CSS Flexbox", "ESLint", "Usability", "Kanban", "Trabalho em grupo", "Programação (computação)", "Behavior-Driven Development (BDD)", "Banco de dados", "Git", "JavaScript", "HTML5", "Responsiveness"
+      "Next.js", "React", "TypeScript", "TailwindCSS", "Cypress", "Jest", "Storybook", "Azure DevOps", "CSS", "Web Design Responsivo", "Scrum", "SASS", "GitFlow", "ESLint", "Usability", "Kanban", "Git", "JavaScript", "HTML5", "Responsiveness"
     ]
   },
   {
